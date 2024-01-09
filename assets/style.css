@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2 {
+  font-family: "Whisper", cursive;
+  font-size: 50px;
+}
+
+.header-container {
+  background-image: url("../assets/img/hamburger1.jpg");
+  padding: 0 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-head {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  margin-left: 500px;
+}
+.header-list-nav {
+  margin: 0 15px;
+}
+.header-list-link {
+  color: white;
+}
+.header-cart {
+  margin-left: auto;
+}
+.header-cart i {
+  margin: 0 10px;
+}
+.header-btn-online {
+  background-color: yellow;
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+.header-btn-online a {
+  padding: 10px 20px;
+}
+.header-hero {
+  margin: 100px 0;
+  width: 40%;
+}
+.header-desc {
+  margin: 40px 0;
+}
+.header-bottom {
+  margin-top: 40px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.header-btn-carousel {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 10px;
+  outline: none;
+  border: none;
+}
+
+.footer {
+  background-color: rgb(42, 38, 38);
+  padding: 30px 200px;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+.footer-content {
+  margin-left: 30px;
+  width: 40%;
+}
+.footer-desc {
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
